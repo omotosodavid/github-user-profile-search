@@ -15,8 +15,6 @@ const UserInfoCard = () => {
                 className="h-40 w-40 rounded-full"
                 src={userInfo.avatar_url}
                 alt="user avatar"
-                width={400}
-                height={500}
               />
             </figure>
             <div className="sm:w-[70%] sm:text-left text-center dark:text-white">
