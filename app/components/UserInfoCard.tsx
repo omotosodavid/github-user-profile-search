@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { useCustomContext } from "../utilities/useCustomContext";
+import Image from "next/image";
 
 const UserInfoCard = () => {
   const { userInfo } = useCustomContext();
@@ -10,7 +11,7 @@ const UserInfoCard = () => {
           {/* Basic user info */}
           <div className="flex sm:flex-row flex-col gap-y-6 sm:justify-between justify-center items-center mb-8">
             <figure>
-              <img
+              <Image
                 className="h-40 w-40 rounded-full"
                 src={userInfo.avatar_url}
                 alt="user avatar"

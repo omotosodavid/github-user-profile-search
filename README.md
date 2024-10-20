@@ -18,6 +18,8 @@ This web app lets users search GitHub profiles and repositories, displaying data
 
 - [Contributing](#contributing)
 
+- [License](#license)
+
 ## Introduction
 
 Github user profile search( web app) provides a comprehensive interface for retrieving and displaying detailed information from the GitHub API based on a user’s search input. Users can enter a GitHub username to access and view the user's profile, including avatar, bio, location, and a list of public repositories. The application is designed to handle various edge cases, such as API rate limits, ensuring that users are informed when the limit is exceeded. Additionally, it manages potential errors, such as invalid usernames or unauthorized access, offering a smooth and intuitive user experience while navigating through the search results.
@@ -119,7 +121,7 @@ to access the application.
 
 - **Handle API Errors**: The application handles API errors by displaying an error message.
 
--**Dark Mode**: The application supports theme switching between light and dark modes, which is persisted in local storage.
+- **Dark Mode**: The application supports theme switching between light and dark modes, which is persisted in local storage.
 
 - **Design**: The search results are displayed in a user-friendly format, the application is designed to be responsive and accessible on various devices.
 
