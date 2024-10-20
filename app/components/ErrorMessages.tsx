@@ -18,8 +18,6 @@ export const RateLimitErrorMessage: React.FC = () => {
             <Image
               src={forbiddenErrorImage}
               alt="403 error visual"
-              width={500} // Adjust as needed
-              height={300} // Adjust as needed
             />
           </figure>
         </section>
@@ -43,8 +41,6 @@ export const UnauthorizedErrorMessage: React.FC = () => {
             <Image
               src={unauthorizedErrorMessage}
               alt="404 error visual"
-              width={500} // Adjust as needed
-              height={300} // Adjust as needed
             />
           </figure>
         </section>
