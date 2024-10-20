@@ -28,7 +28,7 @@ const UserInfoCard = () => {
           <div className="flex flex-wrap gap-3 justify-between items-center dark:text-white">
             {/* Location of user */}
             <div className="inline-flex items-center gap-2 font-medium sm:text-xl">
-              <i className="bi bi-geo-alt-fill text-gray-500"></i>
+              <i className="bi bi-geo-alt-fill dark:text-white"></i>
               <p>
                 {userInfo.location === null
                   ? "No location found"
@@ -38,8 +38,8 @@ const UserInfoCard = () => {
             {/* Number of user repos */}
             <div className="inline-flex items-center gap-2 font-medium sm:text-xl">
               <svg
+                className="dark:fill-white"
                 xmlns="http://www.w3.org/2000/svg"
-                fill="#6b7280"
                 viewBox="0 0 576 512"
                 height="20"
               >

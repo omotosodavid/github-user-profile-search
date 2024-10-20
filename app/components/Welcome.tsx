@@ -1,6 +1,6 @@
-import Image from 'next/image';
-import WelcomeImage from '../assets/welcome.png';
-import { useCustomContext } from '../utilities/useCustomContext';
+import Image from "next/image";
+import WelcomeImage from "../assets/welcome.png";
+import { useCustomContext } from "../utilities/useCustomContext";
 
 const Welcome = () => {
   const { welcome } = useCustomContext();
