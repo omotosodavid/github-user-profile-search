@@ -35,30 +35,55 @@ Explore a preview of the web application's interface.
 To run the application, follow these steps:
 
 1. Clone the repository using
- ```git clone https://github.com/omotosodavid/github-user-profile-search.git```
 
-2. Navigate to the project directory:
-```cd github-user-profile-search```
+```bash
+git clone https://github.com/omotosodavid/github-user-profile-search.git
+```
 
-3. Install the required packages by running
-```npm install```
- or
- ```yarn install```
- in your terminal.
+1. Navigate to the project directory:
 
-4. Start the application with
-```npm run dev```
- or
- `yarn dev```
+```bash
+cd github-user-profile-search
+```
 
-5. Open your web browser and navigate to
-```http://localhost:3000```
- to access the application.
+1. Install the required packages by running
+
+```bash
+npm install
+```
+
+or
+
+```bash
+yarn install
+```
+
+in your terminal.
+
+1. Start the application with
+
+```bash
+npm run dev
+```
+
+or
+
+```bash
+yarn dev
+```
+
+1. Open your web browser and navigate to
+
+```bash
+http://localhost:3000
+```
+
+to access the application.
 
 ## Usage
 
 - Enter a GitHub username in the search bar to view the user's profile and
-repositories.
+  repositories.
 
 - Click on a repository to view its details.
 
