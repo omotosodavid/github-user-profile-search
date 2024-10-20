@@ -12,7 +12,7 @@ const Welcome = () => {
             Welcome to Github User Profile Search
           </h2>
           <figure>
-            <Image src={WelcomeImage} alt="welcome visual" />
+            <Image src={WelcomeImage} alt="welcome visual" priority={true} />
           </figure>
         </section>
       )}
