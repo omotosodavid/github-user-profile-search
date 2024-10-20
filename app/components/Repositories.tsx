@@ -13,7 +13,7 @@ const Repositories: React.FC = () => {
           <h2 className="text-center font-semibold text-3xl dark:text-white">
             Repositories
           </h2>
-          {repos.map((repo:any, index:number) => (
+          {repos.map((repo: any, index: number) => (
             <section
               className="mt-8 border-t pt-8 flex sm:flex-row flex-col gap-4 sm:justify-between sm:items-center"
               key={index}
@@ -33,9 +33,9 @@ const Repositories: React.FC = () => {
               <div className="flex items-end gap-3 dark:text-white">
                 <div className="grid place-items-center">
                   <svg
+                    className="dark:fill-white hover:fill-yellow-400 dark:hover:fill-yellow-300 "
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 576 512"
-                    fill="#6b7280"
                     height="23"
                     width="23"
                   >
@@ -45,9 +45,9 @@ const Repositories: React.FC = () => {
                 </div>
                 <div className="grid place-items-center">
                   <svg
+                    className="dark:fill-white hover:fill-blue-600 dark:hover:fill-blue-600"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 448 512"
-                    fill="#6b7280"
                     height="20"
                     width="20"
                   >

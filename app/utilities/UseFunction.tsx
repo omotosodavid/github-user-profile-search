@@ -32,6 +32,8 @@ const useFunction = () => {
     setWelcome(false);
     setUserInfo(null); // Reset user info
     setRepos(null); // Reset repos
+    setError(false); // Reset error message
+    setRateLimit(false); // Reset rate limit message
     setLoading(true);
     try {
       const response = await axios.get(

@@ -15,9 +15,9 @@ export const RateLimitErrorMessage: React.FC = () => {
             {rateLimit.message}
           </p>
           <figure>
-            <Image 
-              src={forbiddenErrorImage} 
-              alt="403 error visual" 
+            <Image
+              src={forbiddenErrorImage}
+              alt="403 error visual"
               width={500} // Adjust as needed
               height={300} // Adjust as needed
             />
@@ -40,9 +40,9 @@ export const UnauthorizedErrorMessage: React.FC = () => {
             {error.message}
           </p>
           <figure>
-            <Image 
-              src={unauthorizedErrorMessage} 
-              alt="404 error visual" 
+            <Image
+              src={unauthorizedErrorMessage}
+              alt="404 error visual"
               width={500} // Adjust as needed
               height={300} // Adjust as needed
             />
