@@ -3,7 +3,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Github User Profile",
   description: "Web application that generates data based on searched username",
-  icons:"../public/logo.jpg",
+  icons:"logo.jpg",
   openGraph: { images: "logo.jpg", type: "website", locale: "en" },
 };
 
