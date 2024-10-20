@@ -12,13 +12,12 @@ export const RateLimitErrorMessage: React.FC = () => {
       {rateLimit && (
         <section>
           <p className="text-red-500 font-medium text-center text-xl">
-            {rateLimit.message}
+              {typeof rateLimit === "object" && "message" in rateLimit
+                ? rateLimit.message
+                : null}
           </p>
           <figure>
-            <Image
-              src={forbiddenErrorImage}
-              alt="403 error visual"
-            />
+            <Image src={forbiddenErrorImage} alt="403 error visual" />
           </figure>
         </section>
       )}
@@ -35,13 +34,12 @@ export const UnauthorizedErrorMessage: React.FC = () => {
       {error && (
         <section>
           <p className="text-red-500 font-medium text-center text-xl">
-            {error.message}
+            {typeof error === "object" && "message" in error
+              ? error.message
+              : null}
           </p>
           <figure>
-            <Image
-              src={unauthorizedErrorMessage}
-              alt="404 error visual"
-            />
+            <Image src={unauthorizedErrorMessage} alt="404 error visual" />
           </figure>
         </section>
       )}
