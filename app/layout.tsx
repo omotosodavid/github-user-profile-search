@@ -3,7 +3,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Github User Profile",
   description: "Web application that generates data based on searched username",
-  openGraph: { type: "website", locale: "en" },
+  openGraph: { images:"favicon.ico",type: "website", locale: "en" },
 };
 
 export default function RootLayout({
